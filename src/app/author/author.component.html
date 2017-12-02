@@ -1,0 +1,11 @@
+<h1 class="text-center">Implementing Pipes</h1>
+
+<div class="text-center">
+  <ul class="list-group">
+    <li class="list-group-item ">{{authorDetail.title | uppercase}}</li>
+    <li class="list-group-item">{{authorDetail.students | number}}</li>
+    <li class="list-group-item">{{authorDetail.rating | number:'1.2-2'}}</li>
+    <li class="list-group-item">Rs{{authorDetail.price}}</li>
+    <li class="list-group-item">{{authorDetail.releaseDate | date:'fullDate'}}</li>
+  </ul>
+</div>
